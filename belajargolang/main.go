@@ -14,4 +14,15 @@ func main() {
 	} else {
 		fmt.Println("Tidak lulus, nilai anda %d \n", point)
 	}
+
+	var point2 = 6
+
+	switch point2 {
+	case 8:
+		fmt.Println("perfect")
+	case 7:
+		fmt.Println("awesome")
+	default:
+		fmt.Println("not bad")
+	}
 }
